@@ -1,1 +1,1 @@
-Superbuild is for building super websites super easy
+Superbuild is for building super websites, super easily.
