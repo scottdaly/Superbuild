@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     if (action === "dashboard") {
       console.log("Redirecting to dashboard");
-      window.location.href = "dashboard.html";
+      window.location.href = "/dashboard";
     } else if (action === "signin") {
       console.log("Initiating sign in");
       // await signInWithGoogle();
