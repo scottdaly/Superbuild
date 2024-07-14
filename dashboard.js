@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         console.log("Returning to homepage. User:", user);
       }, "5000");
 
-      window.location.href = "index.html";
+      window.location.href = "/";
     } else {
       displayUserInfo(user);
     }
