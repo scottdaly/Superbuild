@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Superbuild Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">Superbuild Dashboard</div>
+          <div class="nav-links">
+            <a href="/" class="button" data-variant="link"> Home </a>
+            <a href="#" id="logoutButton" class="button" data-variant="default"
+              >Logout</a
+            >
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div class="content-body">
+      <section class="dashboard">
+        <div class="container">
+          <h1>Welcome to your Dashboard</h1>
+          <div id="userInfo">
+            <p>Loading user information...</p>
+          </div>
+          <p>This is a protected page only accessible to logged-in users.</p>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Superbuild. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="dashboard.js" type="module"></script>
+  </body>
+</html>
